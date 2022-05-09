@@ -1,0 +1,51 @@
+/* Modes */
+.dark {
+    background-color: #212121;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.light {
+    background-color: #FFFFFF;
+    width: 100%;
+    color: #212121;
+}
+
+/* Big sections */
+/* #main {} */
+
+/* #nav {} */
+
+/* Smaller repeating sections */
+#edge {
+    width: auto;
+}
+
+#splits {
+    width: 350px;
+}
+
+#mode {
+    width: 100px;
+
+}
+
+#mode button {
+    background-color: blue;
+}
+
+/* Links */
+#links {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#links:hover {
+    color: #1976D2;
+}
+
+
+details[open] > h5 {
+    color: #1976D2;
+
+}
