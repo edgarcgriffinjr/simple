@@ -1,51 +1,85 @@
-/* Modes */
-.dark {
+body {
+    justify-content: center;
+    align-items: center;
     background-color: #212121;
+    color: white;
+}
+/* Container styles */
+.container {
     width: 100%;
-    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
-.light {
-    background-color: #FFFFFF;
-    width: 100%;
-    color: #212121;
+/* Header */
+.headName {
+    width: 400px;
+    text-align: left;
 }
 
-/* Big sections */
-/* #main {} */
-
-/* #nav {} */
-
-/* Smaller repeating sections */
-#edge {
-    width: auto;
+.headLinks {
+    width: 400px;
+    text-align: right;
 }
 
-#splits {
-    width: 350px;
-}
-
-#mode {
-    width: 100px;
-
-}
-
-#mode button {
-    background-color: blue;
-}
-
-/* Links */
-#links {
-    color: #FFFFFF;
+.headLinks a {
     text-decoration: none;
+    color: white;
 }
 
-#links:hover {
-    color: #1976D2;
+.headLinks a:hover {
+    color: #2196F3;
 }
 
+/*  -- Main body --  */
 
-details[open] > h5 {
-    color: #1976D2;
+/* Experience */
+.experience {
+    margin-top: 8px;
+}
+.experience h2, .experience h4, .experience p{
+   margin: 0;
+}
 
+.experience h2 {
+    margin-bottom: 3px;
+    color: #2196F3;
+}
+
+.experience h4, .experience p{
+    margin-left: 12px;
+}
+
+/* Education  */
+.education {
+    margin-top: 8px;
+}
+.education h2, .education h4, .education p{
+   margin: 0;
+}
+
+.education h2 {
+    margin-bottom: 3px;
+    color: #2196F3;
+}
+
+.education h4, .education p{
+    margin-left: 12px;
+}
+
+/* Skills */
+.skills {
+    margin-top: 8px;
+}
+.skills h2 {
+    margin: 0;
+    margin-bottom: 3px;
+    color: #2196F3;
+}
+
+.skills ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 12px
 }
